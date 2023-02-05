@@ -1,0 +1,31 @@
+--------------------------
+-- GENERAL OPTIONS
+--------------------------
+
+local options = {
+	backup = false,
+	clipboard = 'unnamedplus',
+	cmdheight = 1,
+	conceallevel = 0,
+	fileencoding = 'utf-8',
+	hlsearch = true,
+	mouse = 'a',
+	pumheight = 10,
+	showmode = false,
+	termguicolors = true,
+	showtabline = 0,
+	splitbelow = true,
+	splitright = true,
+	swapfile = false,
+	timeoutlen = 1000,
+	updatetime = 100,
+	undofile = true,
+	writebackup = false,
+	number = true,
+	relativenumber = true,
+	numberwidth = 4,
+}
+
+for k, v in pairs(options) do
+	vim.opt[k] = v
+end
