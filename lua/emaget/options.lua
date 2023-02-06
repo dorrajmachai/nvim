@@ -24,6 +24,9 @@ local options = {
 	number = true,
 	relativenumber = true,
 	numberwidth = 4,
+	signcolumn = 'yes',
+	wrap = false,
+	sidescrolloff = 8,
 }
 
 for k, v in pairs(options) do

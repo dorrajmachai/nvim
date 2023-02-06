@@ -34,7 +34,7 @@ local cust_cat = {
 	inactive = {
 		a = { fg = colors.subtext, bg = colors.base },
 		b = { fg = colors.subtext, bg = colors.base },
-		c = { fg = colors.crust, bg = colors.crust }
+		c = { fg = colors.base, bg = colors.base }
 	},
 }
 
