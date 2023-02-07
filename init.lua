@@ -9,6 +9,7 @@
 -- 	https://www.youtube.com/watch?v=ekMIIAqTZ34&t=249s || ...which is a video that shows us a bit about them, and then this:
 -- 	https://alpha2phi.medium.com/neovim-for-beginners-lua-autocmd-and-keymap-functions-3bdfe0bebe42 || which is where I saw the "pattern" parameter
 -- 	https://neovim.io/doc/user/autocmd.html || also, here's a link to the autocmd documentation
+-- 	https://github.com/infely/nfi || I use this tool to copy nerd font icons to the clipboard
 
 --------------------------
 -- IMPORTS
@@ -39,7 +40,7 @@ require("lazy").setup('plugins')
 ---------------------------
 
 vim.cmd [[ colorscheme catppuccin ]]
-
+vim.g.airline_theme = 'catppuccin'
 --------------------------
 -- AUTOCOMMANDS
 --------------------------
@@ -49,4 +50,4 @@ vim.cmd [[ colorscheme catppuccin ]]
 -- vim.cmd 'autocmd Filetype help wincmd L'
 
 -- To do it the Neovim way (that is to say, "in Lua"), do this:
-vim.api.nvim_create_autocmd('FileType',  { pattern = 'help', command = ':wincmd L' }) 
+vim.api.nvim_create_autocmd('FileType', { pattern = 'help', command = ':wincmd L' })

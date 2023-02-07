@@ -5,8 +5,6 @@
 -- Which-key documentation:
 -- 	https://github.com/folke/which-key.nvim
 
-
-
 return {
 	'folke/which-key.nvim',
 	config = function()
@@ -24,7 +22,27 @@ return {
 		}
 
 		local mappings = {
-			l = { '<cmd>Lazy<cr>', 'Lazy' },
+			['f'] = {
+				'<cmd>Telescope find_files<cr>',
+				'Find Files',
+			},
+			h = {
+				name = "Harpoon",
+				a = {'<cmd>harpoon.mark.add_file<cr>', 'Add File'},
+			},
+			L = { '<cmd>Lazy<cr>', 'Lazy' },
+			s = {
+				name = 'Search',
+				b = { '<cmd>Telescope git_branches<cr>', 'Checkout Branch' },
+				c = { '<cmd>Telescope colorscheme<cr>', 'Colorscheme' },
+				C = { '<cmd>Telescope commands<cr>', 'Commands' },
+				h = { '<cmd>Telescope help_tags<cr>', 'Find Help' },
+				k = { '<cmd>Telescope keymaps<cr>', 'Keymaps' },
+				M = { '<cmd>Telescope man_pages<cr>', 'Man Pages' },
+				r = { '<cmd>Telescope oldfiles<cr>', 'Recent Files' },
+				R = { '<cmd>Telescope registers<cr>', 'Registers' },
+				s = { '<cmd>Telescope file_browser<cr>', 'File Browser'},
+			},
 			t = {
 				name = 'Terminal',
 				f = { "<cmd>ToggleTerm direction=float<cr>", "Float" },
@@ -59,8 +77,8 @@ return {
 			},
 			icons = {
 				breadcrumb = "»", -- symbol used in the command line area that shows your active key combo
-				separator = "➜", -- symbol used between a key and it's label
-				group = "+", -- symbol prepended to a group
+				separator = "", -- symbol used between a key and it's label
+				group = "", -- symbol prepended to a group
 			},
 			popup_mappings = {
 				scroll_down = '<c-n>',

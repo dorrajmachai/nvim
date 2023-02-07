@@ -2,18 +2,10 @@
 -- TOGGLETERM
 --------------------------
 
-function _G.set_terminal_keymaps()
-  local opts = {noremap = true}
-  vim.keymap.set('t', '<esc>', [[<C-\><C-n>]], opts)
-  vim.keymap.set('t', 'jk', [[<C-\><C-n>]], opts)
-  vim.keymap.set('t', '<C-h>', [[<Cmd>wincmd h<CR>]], opts)
-  vim.keymap.set('t', '<C-j>', [[<Cmd>wincmd j<CR>]], opts)
-  vim.keymap.set('t', '<C-k>', [[<Cmd>wincmd k<CR>]], opts)
-  vim.keymap.set('t', '<C-l>', [[<Cmd>wincmd l<CR>]], opts)
-end
+-- as seen in "init.lua," here is the Vim way:
+-- vim.cmd('autocmd! TermOpen term://* lua set_terminal_keymaps()')
 
-vim.cmd('autocmd! TermOpen term://* lua set_terminal_keymaps()')
--- vim.api.nvim_create_autocmd("TermOpen", {command = term://* lua set_terminal_keymaps()})
+-- ...and the way you do it in Lua:
 
 return {
 	'akinsho/toggleterm.nvim',

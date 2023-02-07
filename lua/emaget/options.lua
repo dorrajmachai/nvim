@@ -11,7 +11,6 @@ local options = {
 	hlsearch = true,
 	mouse = 'a',
 	pumheight = 10,
-	showmode = false,
 	termguicolors = true,
 	showtabline = 0,
 	splitbelow = true,
@@ -27,6 +26,11 @@ local options = {
 	signcolumn = 'yes',
 	wrap = false,
 	sidescrolloff = 8,
+	-- shortmess = 'I',
+	laststatus = 3,
+	tabstop = 4,
+	shiftwidth = 4,
+	guicursor = "n-v-c-i:block",
 }
 
 for k, v in pairs(options) do
