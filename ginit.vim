@@ -30,6 +30,6 @@ nnoremap N nzzzv
 
 xnoremap <leader>p "_dP
 
-nnoremap <leader>y "y
-vnoremap <leader>y "y
-nnoremap <leader>Y "Y
+nnoremap <leader>y "+y
+vnoremap <leader>y "+y
+nnoremap <leader>Y "+Y
