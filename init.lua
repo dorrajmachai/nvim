@@ -14,7 +14,7 @@
 --------------------------
 -- IMPORTS
 --------------------------
-require 'emaget.keymaps' 
+require 'emaget.keymaps'
 require 'emaget.options'
 
 --------------------------
@@ -40,7 +40,6 @@ require("lazy").setup('plugins')
 ---------------------------
 
 -- vim.cmd [[ colorscheme catppuccin ]]
-vim.g.airline_theme = 'catppuccin'
 vim.cmd [[ colorscheme moonfly ]]
 --------------------------
 -- AUTOCOMMANDS
