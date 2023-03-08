@@ -2,6 +2,7 @@
 -- LSP ZERO
 --------------------------
 -- Pumpkins by less.people
+
 return {
 	'VonHeikemen/lsp-zero.nvim',
 	branch = 'v1.x',
@@ -18,4 +19,15 @@ return {
 		-- getting snippy with neovim
 		{ 'L3MON4D3/LuaSnip' },
 	},
+	config = function()
+		local lsp = require('lsp-zero').preset({
+			name = 'minimal',
+			set_lsp_keymaps = true,
+			manage_nvim_cmp = true,
+			suggest_lsp_servers = false,
+		})
+
+		lsp.nvim_workspace()
+		lsp.setup()
+	end
 }
