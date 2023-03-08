@@ -6,6 +6,7 @@ return {
 	'nvim-treesitter/nvim-treesitter',
 	lazy = false,
 	config = function() 
+		require('nvim-treesitter.install').compilers = { "clang" },
 		require('nvim-treesitter.configs').setup {
 			ensure_installed = { "bash", "c", "cpp", "lua", "javascript", "typescript", "java", "scala", "python", "r", "help", "tsx", "css", "json", "fish", "go" },
 			sync_install = false,

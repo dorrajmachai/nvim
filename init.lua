@@ -39,8 +39,9 @@ require("lazy").setup('plugins')
 -- COLOR SCHEME
 ---------------------------
 
-vim.cmd [[ colorscheme catppuccin ]]
-vim.g.airline_theme = 'catppuccin'
+-- vim.cmd [[ colorscheme catppuccin ]]
+-- vim.g.airline_theme = 'catppuccin'
+vim.cmd [[ colorscheme moonfly ]]
 --------------------------
 -- AUTOCOMMANDS
 --------------------------
