@@ -31,6 +31,9 @@ local options = {
 	tabstop = 4,
 	shiftwidth = 4,
 	guicursor = "n-v-c-i:block",
+	guifont = "Iosevka:h14",
+	shell = "cmd.exe",
+	shellxquote = "",
 }
 
 for k, v in pairs(options) do

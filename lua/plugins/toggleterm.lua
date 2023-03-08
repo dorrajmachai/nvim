@@ -26,10 +26,15 @@ return {
 		}		
 
 		local Terminal = require("toggleterm.terminal").Terminal
-		local python = Terminal:new({ cmd = 'python3', direction = 'float', hidden = true })
+		local python = Terminal:new({ cmd = 'python', direction = 'float', hidden = true })
+		local lua = Terminal:new({ cmd = 'lua', direction = 'horizontal', hidden = true })
 
 		function _PYTHON_TOGGLE()
 			python:toggle()
+		end
+
+		function _LUA_TOGGLE()
+			lua:toggle()
 		end
 	end,
 }

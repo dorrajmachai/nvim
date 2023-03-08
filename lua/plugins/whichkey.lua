@@ -47,7 +47,8 @@ return {
 				name = 'Terminal',
 				f = { "<cmd>ToggleTerm direction=float<cr>", "Float" },
 				h = { "<cmd>ToggleTerm size=20 direction=horizontal<cr>", "Horizontal" },
-				p = { "<cmd>lua _PYTHON_TOGGLE()<cr>", "THIS IS BROKEN!" },
+				l = { "<cmd>lua _LUA_TOGGLE()<cr>", "Lua" },
+				p = { "<cmd>lua _PYTHON_TOGGLE()<cr>", "Python" },
 			},
 		}
 
