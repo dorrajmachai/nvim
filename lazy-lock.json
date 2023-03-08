@@ -1,5 +1,6 @@
 {
   "catppuccin": { "branch": "main", "commit": "5e2c9cf8277c42fb634007126c36d765fd176f4a" },
+  "gitsigns.nvim": { "branch": "main", "commit": "b1f9cf7c5c5639c006c937fc1819e09f358210fc" },
   "harpoon": { "branch": "master", "commit": "f7040fd0c44e7a4010369136547de5604b9c22a1" },
   "lazy.nvim": { "branch": "main", "commit": "5b4444f0d7e556deba3f7ca949a2ba0e2c3369fb" },
   "moonfly": { "branch": "master", "commit": "d3ff722e84a9571acbb489e8e85b2a44bbefb602" },
