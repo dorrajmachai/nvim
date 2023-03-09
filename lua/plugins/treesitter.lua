@@ -8,10 +8,24 @@ return {
 	config = function() 
 		require('nvim-treesitter.install').compilers = { "clang" },
 		require('nvim-treesitter.configs').setup {
-			ensure_installed = { "bash", "c", "cpp", "lua", "javascript", "typescript", "java", "scala", "python", "r", "help", "tsx", "css", "json", "fish", "go" },
+			ensure_installed = { 
+				"bash", 
+				"c", 
+				"cpp", 
+				"lua", 
+				"javascript", 
+				"typescript", 
+				"python", 
+				"r", 
+				"help", 
+				"tsx", 
+				"css", 
+				"json", 
+				"fish", 
+				"go" 
+			},
 			sync_install = false,
 			auto_install = true,
-
 			highlight = {
 				enable = true,
 				disable = { "css" },
@@ -23,7 +37,7 @@ return {
 			indent = {
 				enable = true,
 				disable = { "python", "css" }
-			}
-		}
+			},
+		},
 	end
 }
