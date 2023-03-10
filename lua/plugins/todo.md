@@ -1,7 +1,12 @@
 # TODO:
     - [x] Add Undo Tree
-    - [ ] Add LSP for all the things
+    - [x] Add LSP for all the things
     - [x] Add Git Signs
     - [x] Add vim-tmux-navigator
     - [x] Test Undo Tree
-    - [ ] Add vim-surround
+    - [x] Add vim-surround
+    - [x] Check 'jk' keymaps
+    - [ ] Add TODO highlight plugin
+    - [ ] Add markdown-preview for writing and lesson planning
+    - [ ] Add LSP-related keymaps
+    - [ ] Add luadoc plugin thing...don't remember the name
