@@ -9,4 +9,4 @@
     - [x] Add TODO highlight plugin
     - [x] Add markdown-preview for writing and lesson planning
     - [ ] Add LSP-related keymaps
-    - [ ] Add luadoc plugin thing...don't remember the name
+    - [x] Add luadoc plugin thing...don't remember the name
