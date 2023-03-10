@@ -6,7 +6,7 @@
     - [x] Test Undo Tree
     - [x] Add vim-surround
     - [x] Check 'jk' keymaps
-    - [ ] Add TODO highlight plugin
-    - [ ] Add markdown-preview for writing and lesson planning
+    - [x] Add TODO highlight plugin
+    - [x] Add markdown-preview for writing and lesson planning
     - [ ] Add LSP-related keymaps
     - [ ] Add luadoc plugin thing...don't remember the name
