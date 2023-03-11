@@ -8,5 +8,7 @@
     - [x] Check 'jk' keymaps
     - [x] Add TODO highlight plugin
     - [x] Add markdown-preview for writing and lesson planning
-    - [ ] Add LSP-related keymaps
+    - [x] Add LSP-related keymaps
     - [x] Add luadoc plugin thing...don't remember the name
+
+    Completed on 3/11/2023
