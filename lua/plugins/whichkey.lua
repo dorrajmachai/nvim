@@ -45,7 +45,6 @@ return {
 			},
 			t = {
 				name = 'Terminal',
-				g = { "<cmd>lua _GIT_TOGGLE()<cr>", "Git Bash (BUGGY) " },
 				f = { "<cmd>ToggleTerm direction=float<cr>", "Float" },
 				h = { "<cmd>ToggleTerm size=20 direction=horizontal<cr>", "Horizontal" },
 				l = { "<cmd>lua _LUA_TOGGLE()<cr>", "Lua" },
