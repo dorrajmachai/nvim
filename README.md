@@ -127,6 +127,11 @@ I like the way the highlighting is done, here!
 
 The chris@machine setup introduced me to this plugin and it is probably the one I use the most!
 
+- [Code Runner](https://github.com/CRAG666/code_runner.nvim)
+
+This plugin allows me to run code using keyboard shortcuts. 
+It speeds up my workflow ever so slightly because I no longer need to remember what commands to run when I want to run a file
+
 #### *Git-related*
 
 - [Git Signs](https://github.com/lewis6991/gitsigns.nvim)

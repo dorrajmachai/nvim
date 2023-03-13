@@ -31,6 +31,11 @@ return {
 				a = {'<cmd>harpoon.mark.add_file<cr>', 'Add File'},
 			},
 			L = { '<cmd>Lazy<cr>', 'Lazy' },
+			r = {
+				name = "Code Runner",
+				c = { '<cmd>:RunCode<cr>', 'Run Code' },
+				p = { '<cmd>:RunProject<cr>', 'Run Project'},
+			},
 			s = {
 				name = 'Search',
 				b = { '<cmd>Telescope git_branches<cr>', 'Checkout Branch' },
