@@ -29,7 +29,9 @@ I decided to try and write my own config. This is the result of that effort.
 
 - [Lazy.nvim](https://github.com/folke/lazy.nvim)
 
-This config uses Lazy for plugin management. Lazy has great documentation, so you can move to it from any package manager.
+This config uses Lazy for plugin management. Lazy has great documentation, and you can move to it from any package manager. I've
+tried my best to document all of the help I needed or used while setting this up. I think it could be helpful to people in the future,
+including myself!
 
 ### The Plugins
 
@@ -37,7 +39,8 @@ This config uses Lazy for plugin management. Lazy has great documentation, so yo
 
 - [Catppuccin](https://github.com/catppuccin/nvim)
 
-This is probably my favorite theme, like, *ever*. I prefer the Mocha color, and I use color overrides to customize it.
+This is probably my favorite theme, like, *ever*. I prefer the Mocha color, and I use color overrides to customize it. I will say,
+in Neovim-QT, it seems to cause slower performance.
 
 - [Moonfly](https://github.com/bluz71/vim-moonfly-colors)
 
@@ -73,18 +76,18 @@ one, but I'm just saying I don't need *another* plugin just for viewing project 
 
 - [Harpoon](https://github.com/ThePrimeagen/harpoon)
 
-This is just freaking cool. Harpoon allows my brain to focus just on the files I need and access them with a set of keybindings that make
+This is just freaking cool. Harpoon allows my brain to focus on the files I need and access them with a set of keybindings that make
 sense to me.
 
 - [Luaref](https://github.com/milisims/nvim-luaref)
 
-This is extremely useful for referencing Lua without leaving my editor
+This is great for referencing Lua without leaving my editor
 
 #### *Editing text*
 
 - [vim-surround](https://github.com/tpope/vim-surround)
 
-In every config I have used, I have added this pluign. It's extrememly uusefull1
+In every config I have used, I have added this plugin.
 
 - [Undo Tree](https://github.com/mbbill/undotree)
 
@@ -102,7 +105,7 @@ This one is required by a few plugins used in this config
 
 - [Treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 
-I think this is self-explanatory
+I think this is self-explanatory. If not, the docs are pretty helpful.
 
 - [LSP Zero](https://github.com/VonHeikemen/lsp-zero.nvim)
 
