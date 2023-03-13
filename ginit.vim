@@ -1,4 +1,6 @@
 
+set title
+
 if exists(":GuiFont")
 	GuiFont Iosevka:h16
 endif
